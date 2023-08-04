@@ -8,14 +8,23 @@ Accepted command line arguments as follows:
 Some examples of how the program might be run include the following
 : 
 ./wordle-helper 
+
 ./wordle-helper -alpha 
+
 ./wordle-helper -best 
+
 ./wordle-helper -len 6 
+
 ./wordle-helper -with abB 
+
 ./wordle-helper -without xyZ 
+
 ./wordle-helper R___E 
+
 ./wordle-helper -alpha -len 6 -with os -without Xyz r_p__e 
+
 ./wordle-helper r_P__e -alpha -without XyZ -len 6 -with OS
+
 
 • -alpha – if specified, this argument indicates that the output words must be sorted in alphabetical order
 and all duplicates must be removed. If this option is specified, then the -best option must not be specified.
